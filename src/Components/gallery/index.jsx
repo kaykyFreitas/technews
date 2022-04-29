@@ -1,8 +1,8 @@
 import { GalleryContainer, GalleryTitle, Image, ImagesContainer } from "./style";
-import reactImage from '../../reactImage.png';
-import nextImage from '../../nextjsImage.png';
-import nodeImage from '../../nodeImage.png';
-import laravelImage from '../../laravelImage.png';
+import reactImage from '../../Images/reactImage.png';
+import nextImage from '../../Images/nextjsImage.png';
+import nodeImage from '../../Images/nodeImage.png';
+import laravelImage from '../../Images/laravelImage.png';
 
 export function Gallery() {
 
