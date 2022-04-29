@@ -1,5 +1,8 @@
-import { GalleryContainer, GalleryTitle, Image, ImagesContainer, ImageTitle } from "./style";
-
+import { GalleryContainer, GalleryTitle, Image, ImagesContainer } from "./style";
+import reactImage from '../../reactImage.png';
+import nextImage from '../../nextjsImage.png';
+import nodeImage from '../../nodeImage.png';
+import laravelImage from '../../laravelImage.png';
 
 export function Gallery() {
 
@@ -7,31 +10,28 @@ export function Gallery() {
         <>
             <GalleryContainer>
 
-                <GalleryTitle>Ultimas noticias</GalleryTitle>
+                <GalleryTitle>Dev news</GalleryTitle>
 
                 <ImagesContainer>
 
                     <Image>
-                        <ImageTitle>Ola rapzes</ImageTitle>
+                        <img src={ reactImage } alt="" />
                     </Image>
     
                     <Image>
-                        <ImageTitle>Ola rapzes</ImageTitle>
+                        <img src={ nextImage } alt="" />
                     </Image>
 
-
                 </ImagesContainer>
-
-
 
                 <ImagesContainer>
 
                     <Image>
-                        <ImageTitle>Ola rapzes</ImageTitle>
+                        <img src={ nodeImage } alt="" />
                     </Image>
 
                     <Image>
-                        <ImageTitle>Ola rapzes</ImageTitle>
+                        <img src={ laravelImage } alt="" />
                     </Image>
 
                 </ImagesContainer>

@@ -34,8 +34,14 @@ export const Image = styled.div`
     box-shadow: 5px 2.5px 2.5px #E2DFD9;
 
     display: flex;
-    align-items: center;
+
     justify-content: center;
+
+    img {
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+    }
 `;
 
 export const ImageTitle = styled.h1`
@@ -43,5 +49,6 @@ export const ImageTitle = styled.h1`
     color: #FFFAFA;
     font-family: tahoma;
     font-style: italic;
+    position: absolute;
 
 `;

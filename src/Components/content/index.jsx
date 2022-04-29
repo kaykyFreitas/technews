@@ -11,23 +11,23 @@ export function Content() {
         <>
             <ContentContainer>
 
-                <ContentTitle>Ultimas noticias</ContentTitle>
+                <ContentTitle>Assuntos do momento</ContentTitle>
 
                 <NewsContainer>
                     <News>
-                        <NewsTitle>Ola rapzes</NewsTitle>
+                        <NewsTitle>Twitter</NewsTitle>
                     </News>
     
                     <News>
-                        <NewsTitle>Ola rapzes</NewsTitle>
+                        <NewsTitle>Metaverso</NewsTitle>
                     </News>
 
                     <News>
-                        <NewsTitle>Ola rapzes</NewsTitle>
+                        <NewsTitle>Star link</NewsTitle>
                     </News>
 
                     <News>
-                        <NewsTitle>Ola rapzes</NewsTitle>
+                        <NewsTitle>Bitcoin</NewsTitle>
                     </News>
 
                 </NewsContainer>
@@ -36,19 +36,19 @@ export function Content() {
 
                 <NewsContainer>
                     <News>
-                        <NewsTitle>Ola rapzes</NewsTitle>
+                        <NewsTitle>Playstation</NewsTitle>
                     </News>
     
                     <News>
-                        <NewsTitle>Ola rapzes</NewsTitle>
+                        <NewsTitle>Tesla</NewsTitle>
                     </News>
 
                     <News>
-                        <NewsTitle>Ola rapzes</NewsTitle>
+                        <NewsTitle>Instagram</NewsTitle>
                     </News>
 
                     <News>
-                        <NewsTitle>Ola rapzes</NewsTitle>
+                        <NewsTitle>Apple</NewsTitle>
                     </News>
 
                 </NewsContainer>

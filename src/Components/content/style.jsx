@@ -37,11 +37,16 @@ export const News = styled.div`
     align-items: center;
     justify-content: center;
 
+    &:hover {
+        transition: 0.15s;
+        transform: scale(1.015);
+    }
+
 `;
 
 export const NewsTitle = styled.h1`
     font-size: 25px;
-    color: #FFFAFA;
+    color: #2e2e2e;
     font-family: tahoma;
     font-style: italic;
 `;
