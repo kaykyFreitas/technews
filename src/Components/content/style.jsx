@@ -12,6 +12,7 @@ export const ContentTitle = styled.h1`
     font-size: 50px;
     font-family: monospace;
     margin-bottom: 25px;
+    color: #2e2e2e;
 `;
 
 export const NewsContainer = styled.section`
@@ -36,6 +37,7 @@ export const News = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 
     &:hover {
         transition: 0.15s;

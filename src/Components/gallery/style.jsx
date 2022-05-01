@@ -12,6 +12,7 @@ export const GalleryTitle = styled.h1`
     font-size: 50px;
     font-family: monospace;
     margin-bottom: 25px;
+    color: #2e2e2e;
 `;
 
 export const ImagesContainer = styled.section`
@@ -33,6 +34,8 @@ export const Image = styled.div`
     margin: 10px;
     box-shadow: 5px 2.5px 2.5px #E2DFD9;
 
+    cursor: pointer;
+
     display: flex;
 
     justify-content: center;
@@ -41,6 +44,11 @@ export const Image = styled.div`
         border-radius: 5px;
         width: 100%;
         height: 100%;
+    }
+
+    &:hover {
+        transition: 0.15s;
+        transform: scale(1.015);
     }
 `;
 

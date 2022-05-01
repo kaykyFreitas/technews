@@ -13,8 +13,9 @@ export const HeaderContainer = styled.header`
 
 export const Logo = styled.h1`
     font-size: 50px;
-    color: #000;
+    color: #2e2e2e;
     margin-left: 50px;
     font-family: tahoma;
+    cursor: pointer;
 `;
 
